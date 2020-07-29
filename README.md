@@ -1,5 +1,8 @@
 # @linzjs/style
 
+[![Build Status](https://github.com/linz/style-js/workflows/Build/badge.svg)](https://github.com/linz/style-js/actions)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/linz/style-js/blob/master/LICENSE)
+
 NPM configuration for base typescript projects
 
 Includes:

@@ -12,17 +12,44 @@ Includes:
 
 And configuration for saneish defaults, which can be extended 
 
-## Usage
+Most of these are the raw defaults/recommended settings from typescript, eslint and prettier.
 
+```typescript
+export class FooBar {
+  get foo(): number {
+    return 1;
+  }
+
+  async bar(): Promise<string> {
+    return 'bar';
+  }
+
+  /**
+   * @param foo foo to bar
+   */
+  fooBar(foo = 'foo'): string {
+    return `${foo}bar`;
+  }
+}
+```
+
+
+## Usage
 
 ```bash
 yarn add @linzjs/style
 
-# Copy all the configuration styles
+# Create all the base configuration files
+# - tsconfig.json
+# - .eslintrc.js
+# - .prettierrc.js
 npx linz-style-install
 
+# Adjust the configuration as needed
+# ...
 
 
+# Apply the formatting/linting to all source code
 npx eslint src/**/*.ts
 ```
 

@@ -27,12 +27,6 @@ jobs:
       - name: Lint
         run: yarn run lint
 
-      - name: Bundle
-        run: yarn run bundle
-
-      - name: Test
-        run: yarn run test
-
       - name: Publish to NPM
         if: startsWith(github.ref, 'refs/tags/v')
         run: yarn publish

@@ -18,9 +18,6 @@ jobs:
       - name: Install
         run: yarn
 
-      - name: Audit
-        run: yarn audit
-
       - name: Build
         run: yarn run build
 

@@ -8,8 +8,8 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-   commit_message:
-      prefix: "feat"
-      prefix_development: "build"
-      include_scope: true
+  commit_message:
+    prefix: "feat"
+    prefix_development: "build"
+    include_scope: true
   open-pull-requests-limit: 10

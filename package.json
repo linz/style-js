@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/node": "^14.0.27",
-    "conventional-changelog-cli": "^2.0.34"
+    "conventional-changelog-cli": "^2.1.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.9.0",

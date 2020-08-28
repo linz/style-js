@@ -41,6 +41,7 @@ yarn add @linzjs/style
 # npm install @linzjs/style
 
 # Create all the base configuration files
+# If on windows run `node node_modules\@linzjs\style\build\src\install.js`
 # - tsconfig.json
 # - .eslintrc.js
 # - .prettierrc.js

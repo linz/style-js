@@ -38,6 +38,7 @@ export class FooBar {
 
 ```bash
 yarn add @linzjs/style
+# npm install @linzjs/style
 
 # Create all the base configuration files
 # - tsconfig.json

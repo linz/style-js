@@ -1,3 +1,18 @@
+# [0.4.0](https://github.com/linz/style-js/compare/v0.3.0...v0.4.0) (2020-09-29)
+
+
+### Bug Fixes
+
+* correct env usage for node not nodejs ([#44](https://github.com/linz/style-js/issues/44)) ([6727a66](https://github.com/linz/style-js/commit/6727a66bdcbff5a4233c811ba7b4aa75793c6fd5))
+
+
+### Features
+
+* **deps:** bump eslint from 7.9.0 to 7.10.0 ([#43](https://github.com/linz/style-js/issues/43)) ([3ec72dc](https://github.com/linz/style-js/commit/3ec72dcbf438e42e2b872dc25b7d1d67fb874f7a))
+* **deps:** bump eslint-config-prettier from 6.11.0 to 6.12.0 ([#42](https://github.com/linz/style-js/issues/42)) ([48908c8](https://github.com/linz/style-js/commit/48908c876ea0e21d25031237f01778b01359e403))
+
+
+
 # [0.3.0](https://github.com/linz/style-js/compare/v0.2.1...v0.3.0) (2020-09-21)
 
 

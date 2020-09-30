@@ -1,14 +1,14 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import * as fs from "fs";
+import * as path from "path";
 
 /** List of files to automatically install */
 const InstallFiles = [
-  { source: 'eslintrc.js', target: '.eslintrc.js' },
-  { source: 'prettierrc.js', target: '.prettierrc.js' },
-  { source: 'tsconfig.json', target: 'tsconfig.json' },
+  { source: "eslintrc.js", target: ".eslintrc.js" },
+  { source: "prettierrc.js", target: ".prettierrc.js" },
+  { source: "tsconfig.json", target: "tsconfig.json" },
 ];
 
-const InstallPath = path.join(__dirname, '..', '..', 'config');
+const InstallPath = path.join(__dirname, "..", "..", "config");
 
 /** Install the config into the local folder */
 async function main(): Promise<void> {
@@ -18,8 +18,8 @@ async function main(): Promise<void> {
       continue;
     }
 
-    await fs.promises.copyFile(path.join(InstallPath, source), path.join('./', target));
-    console.log('Installed', { fileName: target });
+    await fs.promises.copyFile(path.join(InstallPath, source), path.join("./", target));
+    console.log("Installed", { fileName: target });
   }
 }
 

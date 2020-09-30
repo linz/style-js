@@ -4,13 +4,13 @@ export class FooBar {
   }
 
   async bar(): Promise<string> {
-    return 'bar';
+    return "bar";
   }
 
   /**
    * @param foo foo to bar
    */
-  fooBar(foo = 'foo'): string {
+  fooBar(foo = "foo"): string {
     return `${foo}bar`;
   }
 }

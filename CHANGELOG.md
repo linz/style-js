@@ -1,3 +1,18 @@
+## [0.4.2](https://github.com/linz/style-js/compare/v0.4.1...v0.4.2) (2020-12-04)
+
+
+### Features
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.5.0 to 4.9.0 ([#94](https://github.com/linz/style-js/issues/94)) ([dcc7e1c](https://github.com/linz/style-js/commit/dcc7e1c42e43bfb7e3338e6cc9aee7b0f34d40df))
+* **deps:** bump @typescript-eslint/parser from 4.4.1 to 4.9.0 ([#95](https://github.com/linz/style-js/issues/95)) ([032227c](https://github.com/linz/style-js/commit/032227c19577bddedf5bef098ae37f6bfe1bf36a))
+* **deps:** bump eslint from 7.11.0 to 7.14.0 ([#89](https://github.com/linz/style-js/issues/89)) ([7958c61](https://github.com/linz/style-js/commit/7958c61b12dcc307ca9d4a3ebb7698f1f846aa73))
+* **deps:** bump eslint-config-prettier from 6.13.0 to 6.15.0 ([#71](https://github.com/linz/style-js/issues/71)) ([447ca3d](https://github.com/linz/style-js/commit/447ca3d4a9ddbdc5812b7a76b6e1525383b5a197))
+* **deps:** bump eslint-plugin-prettier from 3.1.4 to 3.2.0 ([422318e](https://github.com/linz/style-js/commit/422318eb9416b79f45d904ba90d2f8a45eada88d))
+* **deps:** bump prettier from 2.1.2 to 2.2.1 ([#93](https://github.com/linz/style-js/issues/93)) ([4e47866](https://github.com/linz/style-js/commit/4e478662093908a7a999c5dd80d2ec3a86937589))
+* **deps:** bump typescript from 4.0.3 to 4.1.2 ([#87](https://github.com/linz/style-js/issues/87)) ([de3ab12](https://github.com/linz/style-js/commit/de3ab12f2d61edcc01a64106776c720cc54ea59d))
+
+
+
 ## [0.4.1](https://github.com/linz/style-js/compare/v0.4.0...v0.4.1) (2020-10-19)
 
 

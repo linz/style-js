@@ -6,6 +6,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'no-var': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/explicit-function-return-type': 'error',
   },

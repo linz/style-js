@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/linz/style-js/compare/v0.4.4...v1.0.0) (2021-02-22)
+
+
+### Features
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.15.0 to 4.15.1 ([#148](https://github.com/linz/style-js/issues/148)) ([9e9d96c](https://github.com/linz/style-js/commit/9e9d96c2d5ce44066925cb2dea72590552df4199))
+* **deps:** bump @typescript-eslint/parser from 4.15.0 to 4.15.1 ([#149](https://github.com/linz/style-js/issues/149)) ([a6f6a34](https://github.com/linz/style-js/commit/a6f6a346161f3c0dc8beaa4d80c934a47c09ce26))
+* **eslint/rule:** add no-var rule ([#152](https://github.com/linz/style-js/issues/152)) ([7b7ff81](https://github.com/linz/style-js/commit/7b7ff8148625effaabca9d03c9f0e89640c84208))
+* **eslint/rule:** adding eqeqeq rule ([#151](https://github.com/linz/style-js/issues/151)) ([6014f9d](https://github.com/linz/style-js/commit/6014f9d2410217e90f0d49e964d897d4c670ebe2))
+
+
+
 ## [0.4.4](https://github.com/linz/style-js/compare/v0.4.3...v0.4.4) (2021-02-15)
 
 

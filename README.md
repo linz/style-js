@@ -33,25 +33,47 @@ export class FooBar {
 }
 ```
 
+## IDE Usage
 
-## Usage
+### Usage VS Code
+1. Install `eslint` using the extensions menu
+2. Add the following to your settings.json
+```json
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+},
+"eslint.validate": ["javascript"],
+```
 
+### Usage with IntelliJ
+IntelliJ has ESLint support by default,
+
+1. Open the settings in Languages & Frameworks > JavaScript > Code Quality Tools > ESLint
+2. Check Automatic ESLint Configuration
+
+
+
+## Project Usage
+
+1. Install LINZ Style
 ```bash
-yarn add @linzjs/style
-# npm install @linzjs/style
+yarn add -D @linzjs/style
+# Or
+npm install @linzjs/style
+```
 
-# Create all the base configuration files
+2. Create the base configuration files
+```bash
 # If on windows run `node node_modules\@linzjs\style\build\src\install.js`
 # - tsconfig.json
 # - .eslintrc.js
 # - .prettierrc.js
 npx linz-style-install
-
-# Adjust the configuration as needed
-# ...
+```
 
 
-# Apply the formatting/linting to all source code
+3. Apply the formatting/linting to all source code
+```
 npx eslint src/**/*.ts
 ```
 

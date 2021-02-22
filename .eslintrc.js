@@ -7,6 +7,7 @@ module.exports = {
   },
   rules: {
     'no-var': 'error',
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/explicit-function-return-type': 'error',
   },

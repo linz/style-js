@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/linz/style-js/compare/v1.2.0...v2.0.0) (2021-03-12)
+
+
+### Features
+
+* **eslint:** support varying rules based off js vs ts vs .test.ts ([#154](https://github.com/linz/style-js/issues/154)) ([3dd5379](https://github.com/linz/style-js/commit/3dd537965e269bb171f11e29bd81b3648da8a46e))
+
+
+### BREAKING CHANGES
+
+* **eslint:** this allows javascript files to be linted aswell, but changes the structure of the exported configuration
+
+https://github.com/linz/style-js/pull/154
+
+
+
 # [1.2.0](https://github.com/linz/style-js/compare/v1.1.0...v1.2.0) (2021-03-11)
 
 

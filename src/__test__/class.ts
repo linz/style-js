@@ -7,11 +7,6 @@ export class FooBar {
     return 'bar';
   }
 
-  // Should allow `!` in tests
-  maybe(f?: string): string {
-    return f!;
-  }
-
   /**
    * @param foo foo to bar
    */

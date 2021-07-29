@@ -12,6 +12,14 @@ module.exports = {
 
   overrides: [
     {
+      /** Overrides for JSON */
+      files: ['**/*.json'],
+      extends: [],
+      rules: {},
+      parser: '@typescript-eslint/parser',
+    },
+
+    {
       /** Overrides for typescript */
       files: ['**/*.ts', '**/*.tsx'],
       extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],

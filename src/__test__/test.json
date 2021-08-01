@@ -1,0 +1,19 @@
+{
+  "allOf": [
+    {
+      "type": "object",
+      "required": ["type", "properties", "assets"],
+      "properties": {
+        "type": { "const": "Feature" },
+        "properties": {
+          "allOf": [
+            { "$comment": "Require fields here for item properties.", "required": ["template:new_field"] },
+            { "$ref": "#/definitions/fields" }
+          ]
+        },
+        "assets": { "type": "object", "additionalProperties": { "$ref": "#/definitions/fields" } }
+      }
+    },
+    { "$ref": "#/definitions/stac_extensions" }
+  ]
+}

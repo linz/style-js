@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/linz/style-js/compare/v2.1.5...v3.0.0) (2021-08-01)
+
+
+### Features
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.28.2 to 4.28.5 ([#253](https://github.com/linz/style-js/issues/253)) ([897b8a1](https://github.com/linz/style-js/commit/897b8a12d932cac996397f8953fdf67a4b9bf952))
+* **deps:** bump @typescript-eslint/parser from 4.28.2 to 4.28.5 ([#254](https://github.com/linz/style-js/issues/254)) ([c0b95f6](https://github.com/linz/style-js/commit/c0b95f6d2c285e7056b5c31fbe15bc84e40f8b8a))
+* **deps:** bump eslint from 7.30.0 to 7.31.0 ([#248](https://github.com/linz/style-js/issues/248)) ([3efc640](https://github.com/linz/style-js/commit/3efc640badf968bfd227266432e42fe8d0948f26))
+* add support for linting/formatting json ([#256](https://github.com/linz/style-js/issues/256)) ([08730d1](https://github.com/linz/style-js/commit/08730d1a9f92d238e11b899c07f25a557a5a03ff))
+
+
+
 ## [2.1.5](https://github.com/linz/style-js/compare/v2.1.4...v2.1.5) (2021-07-05)
 
 

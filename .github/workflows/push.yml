@@ -8,6 +8,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2.3.4
+        with:
+          fetch-depth: 0
 
       - name: Use Node.js 14.x
         uses: actions/setup-node@v2.4.0
@@ -24,6 +26,12 @@ jobs:
 
       - name: Lint
         run: yarn run lint
+
+      - name: Create github release
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: npx conventional-github-releaser -p angular
+        env:
+          CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Publish to NPM
         if: startsWith(github.ref, 'refs/tags/v')

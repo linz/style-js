@@ -18,7 +18,7 @@
   "scripts": {
     "build": "tsc",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "lint": "npx eslint ."
+    "lint": "npx eslint . --ignore-path .gitignore"
   },
   "devDependencies": {
     "@types/node": "^16.7.10",

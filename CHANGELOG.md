@@ -1,3 +1,15 @@
+<a name="3.3.0"></a>
+# [3.3.0](https://github.com/linz/style-js/compare/v3.2.0...v3.3.0) (2021-10-14)
+
+
+### Features
+
+* **deps:** bump [@typescript-eslint](https://github.com/typescript-eslint)/eslint-plugin from 4.31.2 to 4.33.0 ([#311](https://github.com/linz/style-js/issues/311)) ([311c83f](https://github.com/linz/style-js/commit/311c83f))
+* **deps:** bump [@typescript-eslint](https://github.com/typescript-eslint)/parser from 4.31.2 to 4.33.0 ([#312](https://github.com/linz/style-js/issues/312)) ([0757b0b](https://github.com/linz/style-js/commit/0757b0b))
+* **deps:** bump typescript from 4.4.3 to 4.4.4 ([#316](https://github.com/linz/style-js/issues/316)) ([e57ec5a](https://github.com/linz/style-js/commit/e57ec5a))
+
+
+
 <a name="3.2.0"></a>
 # [3.2.0](https://github.com/linz/style-js/compare/v3.1.0...v3.2.0) (2021-09-21)
 

@@ -1,3 +1,13 @@
+<a name="3.4.0"></a>
+# [3.4.0](https://github.com/linz/style-js/compare/v3.3.0...v3.4.0) (2021-11-18)
+
+
+### Features
+
+* typescript 4.5.2 & eslint 8 ([#326](https://github.com/linz/style-js/issues/326)) ([4ef3a3c](https://github.com/linz/style-js/commit/4ef3a3c))
+
+
+
 <a name="3.3.0"></a>
 # [3.3.0](https://github.com/linz/style-js/compare/v3.2.0...v3.3.0) (2021-10-14)
 

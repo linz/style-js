@@ -1,3 +1,17 @@
+<a name="3.7.0"></a>
+# [3.7.0](https://github.com/linz/style-js/compare/v3.6.0...v3.7.0) (2022-03-13)
+
+
+### Features
+
+* **deps:** bump [@typescript-eslint](https://github.com/typescript-eslint)/eslint-plugin from 5.8.0 to 5.14.0 ([#398](https://github.com/linz/style-js/issues/398)) ([2d8aa44](https://github.com/linz/style-js/commit/2d8aa44))
+* **deps:** bump [@typescript-eslint](https://github.com/typescript-eslint)/parser from 5.8.0 to 5.14.0 ([#399](https://github.com/linz/style-js/issues/399)) ([b17fc29](https://github.com/linz/style-js/commit/b17fc29))
+* **deps:** bump eslint from 8.5.0 to 8.10.0 ([#395](https://github.com/linz/style-js/issues/395)) ([c4de536](https://github.com/linz/style-js/commit/c4de536))
+* **deps:** bump eslint-config-prettier from 8.3.0 to 8.5.0 ([#397](https://github.com/linz/style-js/issues/397)) ([ecf20c9](https://github.com/linz/style-js/commit/ecf20c9))
+* **deps:** bump typescript from 4.5.4 to 4.6.2 ([#396](https://github.com/linz/style-js/issues/396)) ([77300d1](https://github.com/linz/style-js/commit/77300d1))
+
+
+
 # [3.6.0](https://github.com/linz/style-js/compare/v3.5.0...v3.6.0) (2021-12-20)
 
 

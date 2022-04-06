@@ -21,7 +21,7 @@
     "lint": "npx eslint {src/**,*.js}"
   },
   "devDependencies": {
-    "@types/node": "^17.0.1",
+    "@types/node": "^17.0.23",
     "conventional-changelog-cli": "^2.2.2",
     "conventional-github-releaser": "^3.1.5"
   },

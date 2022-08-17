@@ -13,7 +13,7 @@ module.exports = {
   overrides: [
     {
       /** Overrides for JSON */
-      files: ['**/*.json'],
+      files: ['*.json'],
       extends: [],
       rules: {},
       parser: '@typescript-eslint/parser',
@@ -21,7 +21,7 @@ module.exports = {
 
     {
       /** Overrides for typescript */
-      files: ['**/*.ts', '**/*.tsx'],
+      files: ['*.ts', '*.tsx'],
       extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
       rules: {
         '@typescript-eslint/no-unused-vars': 'error',
@@ -36,7 +36,7 @@ module.exports = {
        * All rules in the Typescript overrides are also applied
        * They can be overwriten here
        */
-      files: ['**/*.test.ts', '**/*.test.tsx'],
+      files: ['*.test.ts', '*.test.tsx'],
       rules: {
         '@typescript-eslint/no-non-null-assertion': 'off',
       },

@@ -140,6 +140,13 @@
 
 
 
+## [3.11.0](https://github.com/linz/style-js/compare/v3.10.0...v3.11.0) (2022-08-28)
+
+
+### Features
+
+* **deps:** bump typescript from 4.7.4 to 4.8.2 ([#524](https://github.com/linz/style-js/issues/524)) ([ecce4fc](https://github.com/linz/style-js/commit/ecce4fc1abe04f555503965412509103623580f9))
+
 ## [3.10.0](https://github.com/linz/style-js/compare/v3.9.0...v3.10.0) (2022-08-25)
 
 

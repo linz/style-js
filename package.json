@@ -1,6 +1,6 @@
 {
   "name": "@linzjs/style",
-  "version": "3.10.0",
+  "version": "3.11.0",
   "license": "MIT",
   "repository": "github:linz/style-js",
   "bin": {

@@ -20,7 +20,7 @@
     "lint": "npx eslint . --ignore-path .gitignore"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9"
+    "@types/node": "^18.11.13"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.44.0",

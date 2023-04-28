@@ -3,7 +3,6 @@
   "version": "3.16.0",
   "license": "MIT",
   "repository": "github:linz/style-js",
-  "type": "module",
   "bin": {
     "linz-style-install": "linz-style-install"
   },

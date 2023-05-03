@@ -66,8 +66,8 @@ npm install @linzjs/style
 ```bash
 # If on windows run `node node_modules\@linzjs\style\build\src\install.js`
 # - tsconfig.json
-# - .eslintrc.js
-# - .prettierrc.js
+# - .eslintrc.mjs
+# - .prettierrc.mjs
 npx linz-style-install
 ```
 

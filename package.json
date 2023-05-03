@@ -4,14 +4,15 @@
   "license": "MIT",
   "repository": "github:linz/style-js",
   "bin": {
-    "linz-style-install": "linz-style-install"
+    "linz-style-install": "linz-style-install.mjs"
   },
+  "type": "module",
   "files": [
     "build",
     "config",
-    "linz-style-install",
-    ".eslintrc.js",
-    ".prettierrc.js",
+    "linz-style-install.mjs",
+    ".eslintrc.cjs",
+    ".prettierrc.cjs",
     "tsconfig.json",
     "tsconfig.base.json"
   ],

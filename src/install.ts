@@ -1,24 +1,24 @@
-import * as fs from 'fs';
-import * as path from 'path';
+import { promises as fs, existsSync } from 'node:fs';
+import * as path from 'node:path';
 
 /** List of files to automatically install */
 const InstallFiles = [
-  { source: 'eslintrc.js', target: '.eslintrc.js' },
-  { source: 'prettierrc.js', target: '.prettierrc.js' },
+  { source: 'eslintrc.cjs', target: '.eslintrc.cjs' },
+  { source: 'prettierrc.cjs', target: '.prettierrc.cjs' },
   { source: 'tsconfig.json', target: 'tsconfig.json' },
 ];
 
-const InstallPath = path.join(__dirname, '..', '..', 'config');
+const InstallPath = new URL('../../config/', import.meta.url);
 
 /** Install the config into the local folder */
 async function main(): Promise<void> {
   for (const { source, target } of InstallFiles) {
-    if (fs.existsSync(target)) {
-      console.log(`Skipping as ${target} exists`);
+    if (existsSync(target)) {
+      console.log('Skipped', { fileName: target });
       continue;
     }
-
-    await fs.promises.copyFile(path.join(InstallPath, source), path.join('./', target));
+    const sourcePath = new URL(source, InstallPath);
+    await fs.copyFile(sourcePath, path.join('./', target));
     console.log('Installed', { fileName: target });
   }
 }

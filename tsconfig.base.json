@@ -1,28 +1,36 @@
 {
+  // ESM tsconfig based off https://github.com/sindresorhus/tsconfig/blob/main/tsconfig.json
   "compilerOptions": {
     "composite": true,
-    "target": "ES2018",
-    "module": "commonjs",
-    "lib": [],
-    "declaration": true,
-    "declarationMap": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": false,
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "noEmitOnError": false,
-    "experimentalDecorators": true,
-    "strictPropertyInitialization": false,
-    "esModuleInterop": true,
+    // ESM Modules for node16+
+    "target": "ES2021",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "moduleDetection": "force",
+    // To provide backwards compatibility, Node.js allows you to import most CommonJS packages with a default import. This flag tells TypeScript that it's okay to use import on CommonJS modules.
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "baseUrl": "./"
+    // ESM doesn't yet support JSON modules.
+    "resolveJsonModule": false,
+    // Include no libs by default
+    "lib": [],
+    "pretty": true,
+    "newLine": "lf",
+    "jsx": "react",
+    "declaration": true,
+    "stripInternal": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noEmitOnError": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    // Additional options outside sindresorhus's base config
+    "sourceMap": true
   }
 }

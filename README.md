@@ -57,8 +57,6 @@ IntelliJ has ESLint support by default,
 
 1. Install LINZ Style
 ```bash
-yarn add -D @linzjs/style
-# Or
 npm install @linzjs/style
 ```
 
@@ -66,14 +64,17 @@ npm install @linzjs/style
 ```bash
 # If on windows run `node node_modules\@linzjs\style\build\src\install.js`
 # - tsconfig.json
-# - .eslintrc.mjs
-# - .prettierrc.mjs
+# - .eslintrc.cjs
+# - .prettierrc.cjs
 npx linz-style-install
 ```
 
 
 3. Apply the formatting/linting to all source code
 ```
-npx eslint src/**/*.ts
+npx eslint .
 ```
 
+## Migration from 3.x to 4.x
+
+See [Migration Docs](./migration.4.md)

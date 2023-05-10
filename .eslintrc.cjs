@@ -18,7 +18,12 @@ module.exports = {
       rules: {},
       parser: '@typescript-eslint/parser',
     },
-
+    /** Lint/format mjs files */
+    {
+      files: ['**/*.mjs'],
+      extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
+      parser: '@typescript-eslint/parser',
+    },
     {
       /** Overrides for typescript */
       files: ['**/*.ts', '**/*.tsx'],

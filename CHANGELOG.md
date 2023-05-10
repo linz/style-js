@@ -19,6 +19,19 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [4.0.0](https://github.com/linz/style-js/compare/v3.16.0...v4.0.0) (2023-05-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* switch to ESM by default  ([#696](https://github.com/linz/style-js/issues/696))
+
+### Features
+
+* **deps:** bump eslint from 8.37.0 to 8.39.0 ([#685](https://github.com/linz/style-js/issues/685)) ([0f9ec84](https://github.com/linz/style-js/commit/0f9ec84eca0fa71634c43c88efdafd566b727350))
+* **deps:** bump typescript from 5.0.3 to 5.0.4 ([#677](https://github.com/linz/style-js/issues/677)) ([f81b45a](https://github.com/linz/style-js/commit/f81b45a14a67356422e2e2d03563b47fc6b4b5f6))
+* switch to ESM by default  ([#696](https://github.com/linz/style-js/issues/696)) ([e5d39c1](https://github.com/linz/style-js/commit/e5d39c1eb8fd21f16c800566757d307c36d13af3))
+
 ## [3.15.0](https://github.com/linz/style-js/compare/v3.14.0...v3.15.0) (2023-01-09)
 
 

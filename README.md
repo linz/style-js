@@ -66,7 +66,7 @@ npm install @linzjs/style
 2. Create the base configuration files
 
 ```bash
-# If on windows run `node node_modules\@linzjs\style\build\src\install.js`
+# If on windows run `node ./node_modules/@linzjs/style/build/src/install.js`
 # - tsconfig.json
 # - .eslintrc.cjs
 # - .prettierrc.cjs

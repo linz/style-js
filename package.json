@@ -12,16 +12,19 @@
     "config",
     "linz-style-install.mjs",
     ".eslintrc.cjs",
+    ".eslintrc-react.cjs",
     ".prettierrc.cjs",
     "tsconfig.json",
     "tsconfig.base.json"
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "npx eslint . --ignore-path .gitignore"
+    "lint": "npx eslint . --ignore-path .gitignore",
+    "lint:react": "npx eslint src/__test__/MyComponent.tsx --ignore-path .gitignore --config .eslintrc-react.cjs"
   },
   "devDependencies": {
-    "@types/node": "^20.2.5"
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.12"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.9",
@@ -29,6 +32,8 @@
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.8",
     "typescript": "^5.1.3"
   },

@@ -12,15 +12,13 @@
     "config",
     "linz-style-install.mjs",
     ".eslintrc.cjs",
-    ".eslintrc-react.cjs",
     ".prettierrc.cjs",
     "tsconfig.json",
     "tsconfig.base.json"
   ],
   "scripts": {
     "build": "tsc",
-    "lint": "npx eslint . --ignore-path .gitignore",
-    "lint:react": "npx eslint src/__test__/MyComponent.tsx --ignore-path .gitignore --config .eslintrc-react.cjs"
+    "lint": "npx eslint . --ignore-path .gitignore"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",

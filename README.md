@@ -77,8 +77,6 @@ npx linz-style-install
 
 **Or extend your existing `eslintrc.js` config**   
 
-For standard js or ts projects extend `.eslintrc.cjs`
-
 Example extending the `.eslintrc.js` file in your project
 ```js
 module.exports = {
@@ -96,16 +94,7 @@ module.exports = {
 }
 ```
 
-For React projects extend `.eslintrc-react.cjs`:
-
-Example extending the `.eslintrc.js` file in your project for React
-```js
-module.exports = {
-  extends: ["./node_modules/@linzjs/style/.eslintrc-react.cjs"]
-}
-```
-
-4. Apply the formatting/linting to all source code
+3. Apply the formatting/linting to all source code
 
 ```
 npx eslint .

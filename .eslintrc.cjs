@@ -34,7 +34,14 @@ module.exports = {
       },
       parser: '@typescript-eslint/parser',
     },
-
+    {
+      /** Overrides for tsx (this will add to the above .tsx rules) */
+      files: ['**/*.tsx'],
+      extends: [
+        'plugin:react/recommended',
+        'plugin:react-hooks/recommended',
+      ],
+    },
     {
       /**
        * Overrides for typescript tests

@@ -19,6 +19,16 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [4.2.0](https://github.com/linz/style-js/compare/v4.1.0...v4.2.0) (2023-06-20)
+
+
+### Features
+
+* Add React and React Hook linting rules ([#729](https://github.com/linz/style-js/issues/729)) ([b8ec393](https://github.com/linz/style-js/commit/b8ec3932121e5b571916b6849d17f26fef2d952d))
+* **deps:** bump @typescript-eslint/eslint-plugin from 5.59.9 to 5.60.0 ([#732](https://github.com/linz/style-js/issues/732)) ([116c84e](https://github.com/linz/style-js/commit/116c84e498f2c2b4cea9f120d33c183a4094980a))
+* **deps:** bump @typescript-eslint/parser from 5.59.9 to 5.60.0 ([#731](https://github.com/linz/style-js/issues/731)) ([e41be3e](https://github.com/linz/style-js/commit/e41be3ebc893738a531b6afbad53bbbcdc8a2edf))
+* **deps:** bump eslint from 8.42.0 to 8.43.0 ([#730](https://github.com/linz/style-js/issues/730)) ([98f9c3f](https://github.com/linz/style-js/commit/98f9c3ff5b4d2694731afdbdf4b9e16025b174bb))
+
 ## [4.1.0](https://github.com/linz/style-js/compare/v4.0.0...v4.1.0) (2023-06-05)
 
 

@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['plugin:prettier/recommended'],
+  plugins: ['simple-import-sort'],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -8,6 +9,9 @@ module.exports = {
   rules: {
     'no-var': 'error',
     eqeqeq: ['error', 'always', { null: 'ignore' }],
+    // Default simple-import-sort rules
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error'
   },
 
   overrides: [

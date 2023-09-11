@@ -21,7 +21,7 @@
     "lint": "npx eslint . --ignore-path .gitignore"
   },
   "devDependencies": {
-    "@types/node": "^20.4.9",
+    "@types/node": "^20.6.0",
     "@types/react": "^18.2.20"
   },
   "dependencies": {

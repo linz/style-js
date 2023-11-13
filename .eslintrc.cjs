@@ -7,11 +7,21 @@ module.exports = {
   },
   /** Default rules for Javascript, Typescript & Tests */
   rules: {
+    // Use const/let
     'no-var': 'error',
+
+    /**
+     *  Force `===` but allow `== null`
+     *  to prevent `x === undefined || x === null`
+     */
     eqeqeq: ['error', 'always', { null: 'ignore' }],
+
+    // https://eslint.org/blog/2022/07/interesting-bugs-caught-by-no-constant-binary-expression/
+    'no-constant-binary-expression': 'error',
+
     // Default simple-import-sort rules
     'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error'
+    'simple-import-sort/exports': 'error',
   },
 
   overrides: [
@@ -41,10 +51,7 @@ module.exports = {
     {
       /** Overrides for tsx (this will add to the above .tsx rules) */
       files: ['**/*.tsx'],
-      extends: [
-        'plugin:react/recommended',
-        'plugin:react-hooks/recommended',
-      ],
+      extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended'],
     },
     {
       /**

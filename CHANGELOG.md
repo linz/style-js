@@ -19,6 +19,14 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [5.1.0](https://github.com/linz/style-js/compare/v5.0.0...v5.1.0) (2023-11-13)
+
+
+### Features
+
+* **deps:** bump the typescript-eslint-prettier group with 6 updates ([#859](https://github.com/linz/style-js/issues/859)) ([9677c3e](https://github.com/linz/style-js/commit/9677c3efbb53b9aa2493b97d22366b7a6e636330))
+* **eslint:** enable no-constant-binary-expression: ([#857](https://github.com/linz/style-js/issues/857)) ([17b3b07](https://github.com/linz/style-js/commit/17b3b0766bdc3fc2420d954cad9bd99e0da688d7))
+
 ## [5.0.0](https://github.com/linz/style-js/compare/v4.2.0...v5.0.0) (2023-09-10)
 
 

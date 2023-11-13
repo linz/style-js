@@ -1,4 +1,5 @@
 version: 2
+
 updates:
 - package-ecosystem: "github-actions"
   directory: "/"
@@ -13,3 +14,11 @@ updates:
     prefix-development: "build"
     include: "scope"
   open-pull-requests-limit: 10
+  groups:
+    "typescript-eslint-prettier":
+      patterns:
+        - "typescript"
+        - "eslint"
+        - "eslint-plugin-*"
+        - "prettier"
+        - "@typescript-eslint/*"

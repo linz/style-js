@@ -4,7 +4,7 @@ export class FooBar {
   }
 
   async bar(): Promise<string> {
-    return 'bar';
+    return await Promise.resolve('bar');
   }
 
   /**

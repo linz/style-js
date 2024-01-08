@@ -39,9 +39,16 @@ module.exports = {
       parser: '@typescript-eslint/parser',
     },
     {
+      parserOptions: {
+        project: true,
+      },
       /** Overrides for typescript */
       files: ['**/*.ts', '**/*.tsx'],
-      extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-type-checked',
+        'plugin:prettier/recommended',
+      ],
       rules: {
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/explicit-function-return-type': 'error',

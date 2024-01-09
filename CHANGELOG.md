@@ -19,6 +19,17 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [5.2.0](https://github.com/linz/style-js/compare/v5.1.0...v5.2.0) (2024-01-09)
+
+
+### Features
+
+* add @typescript-eslint/recommended-type-checked ([#882](https://github.com/linz/style-js/issues/882)) ([793dd3e](https://github.com/linz/style-js/commit/793dd3e7d1a9cc83552eee7eb028cf4257a52279))
+* **deps:** bump eslint-config-prettier from 9.0.0 to 9.1.0 ([#874](https://github.com/linz/style-js/issues/874)) ([cde1131](https://github.com/linz/style-js/commit/cde11312ecb041600171d072a99ee12a5a2272e9))
+* **deps:** bump the typescript-eslint-prettier group with 2 updates ([#895](https://github.com/linz/style-js/issues/895)) ([2c25865](https://github.com/linz/style-js/commit/2c25865b00594719d33ccf132f92db2ee6ab2b31))
+* **deps:** bump the typescript-eslint-prettier group with 4 updates ([#894](https://github.com/linz/style-js/issues/894)) ([ceee3cc](https://github.com/linz/style-js/commit/ceee3cce573561db199a88f6ad15bd49bac3e75b))
+* **deps:** bump the typescript-eslint-prettier group with 5 updates ([#880](https://github.com/linz/style-js/issues/880)) ([03ec37f](https://github.com/linz/style-js/commit/03ec37fb9180d3b857c6740d0a46fa29defeb0d9))
+
 ## [5.1.0](https://github.com/linz/style-js/compare/v5.0.0...v5.1.0) (2023-11-13)
 
 

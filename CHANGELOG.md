@@ -19,6 +19,25 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [6.0.0](https://github.com/linz/style-js/compare/v5.4.0...v6.0.0) (2026-05-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* removes .eslintrc.cjs and .prettierrc.cjs configs; consuming projects must migrate to oxfmt.config.ts (extends @linzjs/style) and oxlint.config.ts. See migration.6.md.
+
+### Features
+
+* **deps:** bump googleapis/release-please-action from 4 to 5 ([#1066](https://github.com/linz/style-js/issues/1066)) ([7e73177](https://github.com/linz/style-js/commit/7e7317779a7b5ae0c68118fc1a0183a851231e67))
+* eplace ESLint + Prettier with oxlint + oxfmt ([#1062](https://github.com/linz/style-js/issues/1062)) ([6b163f0](https://github.com/linz/style-js/commit/6b163f0a0f74cb488b2553796587bc80a940ec6d))
+
+
+### Bug Fixes
+
+* allow ci from pull requests ([#1063](https://github.com/linz/style-js/issues/1063)) ([d2cc84a](https://github.com/linz/style-js/commit/d2cc84aec878756f69d6976b5588d8802a222944))
+* release-please is currently broken upgrade to latest ([#1064](https://github.com/linz/style-js/issues/1064)) ([d183af1](https://github.com/linz/style-js/commit/d183af1dcce543d15317fb530696b1f97c116048))
+* use .prettierignore to exclude CHANGELOG.md from formatting ([#1072](https://github.com/linz/style-js/issues/1072)) ([22a950e](https://github.com/linz/style-js/commit/22a950e424937af472b905abdd57013afe5932ad))
+
 ## [5.4.0](https://github.com/linz/style-js/compare/v5.3.0...v5.4.0) (2024-06-23)
 
 

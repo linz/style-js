@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: linz/action-setup-node@d492fdef8b09cc595b9e28408344de3f70076591 # v1.0.4
+      - uses: linz/action-setup-node@bd3af11c6f555ca817c163bf87104f9b2fafd282 # v1.0.5
         with:
           node-version-file: .node-version
           registry-url: 'https://registry.npmjs.org'

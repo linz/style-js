@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@064fe7f3312418007dea2b49a19844a9ee378f49 # v6.0.2
+      - uses: actions/checkout@e8d4307400f9427dba7cb98e488d6ab85f1cec5f # v6.0.2
         with:
           fetch-depth: 0
 

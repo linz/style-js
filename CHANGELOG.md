@@ -19,6 +19,13 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [6.1.0](https://github.com/linz/style-js/compare/v6.0.0...v6.1.0) (2026-09-08)
+
+
+### Features
+
+* SRVTRI-5458 fix snyk ([#1112](https://github.com/linz/style-js/issues/1112)) ([7a126d5](https://github.com/linz/style-js/commit/7a126d5d0f6e9fd330aad273f6a0bf402b3dd72d))
+
 ## [6.0.0](https://github.com/linz/style-js/compare/v5.4.0...v6.0.0) (2026-05-14)
 
 

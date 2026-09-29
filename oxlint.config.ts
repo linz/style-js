@@ -7,9 +7,14 @@ export default defineConfig({
     typeCheck: false,
   },
 
-  plugins: ['eslint', 'typescript', 'jsx-a11y'],
+  plugins: ['eslint', 'typescript', 'jsx-a11y', 'import'],
 
   rules: {
+    // madge (lint:circular) doesn't support TypeScript 7; this is oxlint's
+    // native equivalent, using its own Rust-based module resolution instead
+    // of the TypeScript Compiler API.
+    'import/no-cycle': 'error',
+
     curly: 'error',
     eqeqeq: ['error', 'always', { null: 'ignore' }],
     'no-constant-binary-expression': 'error',

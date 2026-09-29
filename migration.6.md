@@ -45,8 +45,7 @@ Update lint-related commands in package.json:
 
 ```json
   scripts: {
-    "lint": "npx concurrently \"npm run lint:circular\" \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
-    "lint:circular": "madge --circular --extensions js,ts,tsx --ts-config tsconfig.json ./src",
+    "lint": "npx concurrently \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
     "lint:oxlint": "oxlint --deny-warnings",
     "lint:fmt": "oxfmt --check .",
     "lint:fix": "oxlint --fix",

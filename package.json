@@ -35,8 +35,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "npx concurrently \"npm run lint:circular\" \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
-    "lint:circular": "madge --circular --extensions js,ts,tsx --ts-config tsconfig.json ./src",
+    "lint": "npx concurrently \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
     "lint:oxlint": "oxlint --deny-warnings",
     "lint:fmt": "oxfmt --check .",
     "lint:fix": "oxlint --fix",
@@ -44,7 +43,6 @@
     "test": "echo linting is the test for this project"
   },
   "dependencies": {
-    "madge": "^8.0.0",
     "oxfmt": "^0.71.0",
     "oxlint": "^1.80.0",
     "oxlint-tsgolint": "^7.0.2001"

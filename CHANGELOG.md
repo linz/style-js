@@ -19,6 +19,13 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [6.1.1](https://github.com/linz/style-js/compare/v6.1.0...v6.1.1) (2026-10-06)
+
+
+### Bug Fixes
+
+* **deps:** bump oxfmt to ^0.71.0 ([#1126](https://github.com/linz/style-js/issues/1126)) ([d47810c](https://github.com/linz/style-js/commit/d47810c35e55c73778c94e4627bb209aaef8a187))
+
 ## [6.1.0](https://github.com/linz/style-js/compare/v6.0.0...v6.1.0) (2026-09-08)
 
 

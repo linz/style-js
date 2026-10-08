@@ -19,6 +19,17 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [7.0.0](https://github.com/linz/style-js/compare/v6.1.1...v7.0.0) (2026-10-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* madge is no longer a dependency of @linzjs/style and circular imports are now reported by oxlint's import/no-cycle rule. Consuming projects must remove their `lint:circular` script (and drop it from their `lint` script); cycles are reported by `npm run lint:oxlint`. Projects with existing circular imports will now fail `lint:oxlint`.
+
+### Features
+
+* replace madge with oxlint import/no-cycle rule ([#1122](https://github.com/linz/style-js/issues/1122)) ([450430e](https://github.com/linz/style-js/commit/450430e6127f472616a3ea1cba530fe78df0c689))
+
 ## [6.1.1](https://github.com/linz/style-js/compare/v6.1.0...v6.1.1) (2026-10-06)
 
 

@@ -35,7 +35,7 @@ IntelliJ has an Oxc plugin supporting oxfmt and oxlint: https://plugins.jetbrain
 1. Install `@linzjs/style`:
 
 ```bash
-# this also installs dependencies: madge oxfmt oxlint oxlint-tsgolint
+# this also installs dependencies: oxfmt oxlint oxlint-tsgolint
 npm install --save-dev @linzjs/style
 ```
 
@@ -80,8 +80,7 @@ Add/update lint-related commands in package.json:
 
 ```json
   scripts: {
-    "lint": "npx concurrently \"npm run lint:circular\" \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
-    "lint:circular": "madge --circular --extensions js,ts,tsx --ts-config tsconfig.json ./src",
+    "lint": "npx concurrently \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
     "lint:oxlint": "oxlint --deny-warnings",
     "lint:fmt": "oxfmt --check .",
     "lint:fix": "oxlint --fix",

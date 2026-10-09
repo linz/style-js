@@ -43,13 +43,13 @@
     "test": "echo linting is the test for this project"
   },
   "dependencies": {
-    "oxfmt": "^0.71.0",
-    "oxlint": "^1.80.0",
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0",
     "oxlint-tsgolint": "^7.0.2001"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }

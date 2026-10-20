@@ -74,7 +74,7 @@ export default defineConfig({
 });
 ```
 
-Example extending the `oxfmt.config.ts` file in your project. 
+Example extending the `oxfmt.config.ts` file in your project.
 
 ```typescript
 import base from '@linzjs/style/oxfmt.config';
@@ -91,7 +91,7 @@ export default defineConfig({
 > NOTE: `oxfmt` does not support `extends`.
 > `oxfmt.config.ts` files created by `linz-style-install` in 6.x use `extends: [base]`, which oxfmt silently
 > ignores, so none of the base settings (such as `printWidth: 120` and import sorting) are applied.
-> Replace `extends: [base]` with `...base` if you have followed previous instructions.
+> Replace `extends: [base]` with `...base`, or re-run `npx linz-style-install`, if you have followed previous instructions.
 
 3. Update `package.json` scripts
 

@@ -48,7 +48,7 @@ Update lint-related commands in package.json:
     "lint": "npx concurrently \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
     "lint:oxlint": "oxlint --deny-warnings",
     "lint:fmt": "oxfmt --check .",
-    "lint:fix": "oxlint --fix",
+    "lint:fix": "oxlint --fix && oxfmt --write .",
     "format": "oxfmt --write ."
   }
 ```

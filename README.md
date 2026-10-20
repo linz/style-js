@@ -52,7 +52,7 @@ npm install --save-dev @linzjs/style
 npx linz-style-install
 ```
 
-**Or extend your existing `oxlint.config.ts` config**
+**Or extend your existing `oxlint.config.ts` and `oxfmt.config.ts` configs**
 
 Example extending the `oxlint.config.ts` file in your project
 
@@ -73,6 +73,25 @@ export default defineConfig({
   ],
 });
 ```
+
+Example extending the `oxfmt.config.ts` file in your project. 
+
+```typescript
+import base from '@linzjs/style/oxfmt.config';
+import { defineConfig } from 'oxfmt';
+
+export default defineConfig({
+  ...base,
+  singleQuote: false,
+  // keys set here replace the base value. To add to a list, spread it too
+  ignorePatterns: [...base.ignorePatterns, 'generated/'],
+});
+```
+
+> NOTE: `oxfmt` does not support `extends`.
+> `oxfmt.config.ts` files created by `linz-style-install` in 6.x use `extends: [base]`, which oxfmt silently
+> ignores, so none of the base settings (such as `printWidth: 120` and import sorting) are applied.
+> Replace `extends: [base]` with `...base` if you have followed previous instructions.
 
 3. Update `package.json` scripts
 

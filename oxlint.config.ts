@@ -26,6 +26,14 @@ export default defineConfig({
 
     'typescript/ban-ts-comment': 'error',
     'typescript/explicit-function-return-type': 'off',
+    // node:test's describe/it/test/suite return promises that the test runner
+    // awaits internally, so flagging them as unhandled is a false positive.
+    'typescript/no-floating-promises': [
+      'error',
+      {
+        allowForKnownSafeCalls: [{ from: 'package', package: 'node:test', name: ['describe', 'it', 'test', 'suite'] }],
+      },
+    ],
     'typescript/no-misused-promises': 'error',
     'typescript/no-namespace': 'error',
     'typescript/no-unnecessary-type-assertion': 'error',

@@ -14,6 +14,7 @@ export default defineConfig({
     // native equivalent, using its own Rust-based module resolution instead
     // of the TypeScript Compiler API.
     'import/no-cycle': 'error',
+    'import/no-duplicates': 'error',
 
     curly: 'error',
     eqeqeq: ['error', 'always', { null: 'ignore' }],

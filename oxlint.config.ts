@@ -15,7 +15,7 @@ export default defineConfig({
     // of the TypeScript Compiler API.
     'import/no-cycle': 'error',
 
-    curly: 'error',
+    curly: ['error', 'multi-line'],
     eqeqeq: ['error', 'always', { null: 'ignore' }],
     'no-constant-binary-expression': 'error',
     'no-sequences': 'error',

@@ -7,6 +7,12 @@ export default defineConfig({
     typeCheck: false,
   },
 
+  // Promote every rule oxlint classes as "correctness" (bugs) to an error
+  // e.g. no-debugger and no-constant-condition (`if (true)`).
+  categories: {
+    correctness: 'error',
+  },
+
   plugins: ['eslint', 'typescript', 'jsx-a11y', 'import'],
 
   rules: {

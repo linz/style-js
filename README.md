@@ -83,15 +83,15 @@ Add/update lint-related commands in package.json:
     "lint": "npx concurrently \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
     "lint:oxlint": "oxlint --deny-warnings",
     "lint:fmt": "oxfmt --check .",
-    "lint:fix": "oxlint --fix",
+    "lint:fix": "oxlint --fix && oxfmt --write .",
     "format": "oxfmt --write ."
   }
 ```
 
 4. Apply the formatting/linting to all source code
 
-```
-npm run lint .
+```bash
+npm run lint:fix
 ```
 
 ## Migration from 3.x to 4.x

@@ -16,7 +16,7 @@ export default defineConfig({
     'import/no-cycle': 'error',
     'import/no-duplicates': 'error',
 
-    curly: 'error',
+    curly: ['error', 'multi-line'],
     eqeqeq: ['error', 'always', { null: 'ignore' }],
     'no-constant-binary-expression': 'error',
     'no-sequences': 'error',

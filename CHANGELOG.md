@@ -19,6 +19,24 @@
 * **deps:** bump typescript from 4.9.5 to 5.0.2 ([#660](https://github.com/linz/style-js/issues/660)) ([6cda686](https://github.com/linz/style-js/commit/6cda6866011782df3fbe26e1524236aac4242ed8))
 * **deps:** bump typescript from 5.0.2 to 5.0.3 ([#674](https://github.com/linz/style-js/issues/674)) ([b38bdfc](https://github.com/linz/style-js/commit/b38bdfc838712d9b4e4c1adf4f1ccfd159262f37))
 
+## [7.0.0](https://github.com/linz/style-js/compare/v6.1.1...v7.0.0) (2026-10-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* madge is no longer a dependency of @linzjs/style and circular imports are now reported by oxlint's import/no-cycle rule. Consuming projects must remove their `lint:circular` script (and drop it from their `lint` script); cycles are reported by `npm run lint:oxlint`. Projects with existing circular imports will now fail `lint:oxlint`.
+
+### Features
+
+* replace madge with oxlint import/no-cycle rule ([#1122](https://github.com/linz/style-js/issues/1122)) ([450430e](https://github.com/linz/style-js/commit/450430e6127f472616a3ea1cba530fe78df0c689))
+
+
+### Bug Fixes
+
+* allow node:test promises ([#1137](https://github.com/linz/style-js/issues/1137)) ([e2b1d24](https://github.com/linz/style-js/commit/e2b1d24ee9011d64ea42c4d794da3e5d005c06f7))
+* curly is too aggressive and causing signifant churn for siple if statements ([#1136](https://github.com/linz/style-js/issues/1136)) ([98fc976](https://github.com/linz/style-js/commit/98fc976a937b7c7bcc6524bd13afcf407364220f))
+* remove duplicate imports ([#1138](https://github.com/linz/style-js/issues/1138)) ([8d3f731](https://github.com/linz/style-js/commit/8d3f731c003e545b6a900bf8dee28820163e1779))
+
 ## [6.1.1](https://github.com/linz/style-js/compare/v6.1.0...v6.1.1) (2026-10-06)
 
 

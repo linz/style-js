@@ -80,7 +80,7 @@ Add/update lint-related commands in package.json:
 
 ```json
   scripts: {
-    "lint": "npx concurrently \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
+    "lint": "npm run lint:oxlint && npm run lint:fmt && tsc",
     "lint:oxlint": "oxlint --deny-warnings",
     "lint:fmt": "oxfmt --check .",
     "lint:fix": "oxlint --fix",
@@ -101,3 +101,7 @@ See [Migration Docs](./migration.4.md)
 ## Migration from 5.x to 6.x
 
 See [Migration Docs](./migration.6.md)
+
+## Migration from 6.x to 7.x
+
+See [Migration Docs](./migration.7.md)

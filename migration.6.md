@@ -45,7 +45,7 @@ Update lint-related commands in package.json:
 
 ```json
   scripts: {
-    "lint": "npx concurrently \"npm run lint:oxlint\" \"npm run lint:fmt\" \"tsc\"",
+    "lint": "npm run lint:oxlint && npm run lint:fmt && tsc",
     "lint:oxlint": "oxlint --deny-warnings",
     "lint:fmt": "oxfmt --check .",
     "lint:fix": "oxlint --fix",
